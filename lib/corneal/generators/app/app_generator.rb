@@ -14,6 +14,7 @@ module Corneal
       class_option :rvm, :type => :boolean, :desc => "Create .ruby-version (ruby-2.1.0) and .ruby-gemset"
       class_option :bundle, :type => :boolean, :desc => "Run bundle after generating the app"
       class_option :git, :type => :boolean, :desc => "Initialize a Git repository"
+      class_option :api, :type => :boolean, :desc => "Initialize api only version"
 
       # Creates instance variables from options passed to corneal.
       def setup
